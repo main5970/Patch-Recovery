@@ -3,13 +3,13 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
-        description: 'RECOVERY URL'
+      RECOVERY_URL: https://tmpfiles.org/dl/14748485/recovery.img
+        description: https://tmpfiles.org/dl/14748485/recovery.img
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://tmpfiles.org/dl/14748485/recovery.img
 
 jobs:
   build:
